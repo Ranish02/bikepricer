@@ -24,6 +24,15 @@ def show_predict_page():
         """ This app is based on a model trained using dataset from kaggle """)
     st.write(
         "Dataset source: [link](https://www.kaggle.com/datasets/saisaathvik/used-bikes-prices-in-india)")
+    st.write(
+        "The accuracy of this model lies between 80 % to 100 %"
+    )
+    st.write(
+        "The accuracy of this model lies between 80 % to 100 %"
+    )
+    st.write(
+        "Model trained and deploy by Ranish Kunwar. [Linkedin](https://www.linkedin.com/in/ranish-kunwar/) [Github](https://github.com/Ranish02)  "
+    )
 
     brand = (
         'TVS', 'Royal Enfield', 'Triumph', 'Yamaha',
