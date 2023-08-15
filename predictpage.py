@@ -27,9 +27,7 @@ def show_predict_page():
     st.write(
         "The accuracy of this model lies between 80 % to 100 %"
     )
-    st.write(
-        "The accuracy of this model lies between 80 % to 100 %"
-    )
+
     st.write(
         "Model trained and deploy by Ranish Kunwar. [Linkedin](https://www.linkedin.com/in/ranish-kunwar/) [Github](https://github.com/Ranish02)  "
     )
