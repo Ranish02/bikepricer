@@ -70,5 +70,5 @@ def show_predict_page():
         X[:, 4] = le_brand.transform(X[:, 4])
         X[:, 1] = le_owner.transform(X[:, 1])
         X = X.astype(float)
-        salary = regressor.predict(X)
-        st.subheader(f"The estimated salary is ${salary[0]:.2f}")
+        price = regressor.predict(X)
+        st.subheader(f"The estimated price is ${price[0]:.2f}")
